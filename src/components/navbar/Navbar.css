@@ -1,0 +1,39 @@
+.nav_bar{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 0.75rem 1rem;
+    justify-content: space-between;
+
+}
+.nav_bar h2{
+    margin: 0.5rem;
+}
+.container header h2{
+    margin-top:0;
+}
+.nav-container{
+    position: relative;
+}
+.nav-container svg{
+    /* font-size: 2rem; */
+    cursor: pointer;
+
+}
+.nav-container p{
+    top: 0;
+    right: 0;
+    padding: 0.25rem;
+    background-color: #27b0dd;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    /* opacity: 0.75; */
+
+}

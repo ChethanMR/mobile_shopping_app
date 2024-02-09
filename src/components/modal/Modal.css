@@ -1,0 +1,39 @@
+.modal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.65);
+}
+.modal{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.confirm-btn{
+    color: blue;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+
+}
+.cancel-btn{
+    color: rgb(132,14,14);
+    border: 2px solid rgb(132,14,14);
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
